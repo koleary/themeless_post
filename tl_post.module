@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Implements functions to change the display of article.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function tl_post_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'tl_post/post';
+}
+
+/**
+ * Implements hook_theme().
+ */
+function tl_post_theme($existing, $type, $theme, $path) {
+  $theme = array();
+  $theme['node__tl_post'] = array(
+      'base hook' => 'node',
+  );
+  return $theme;
+}

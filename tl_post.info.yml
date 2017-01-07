@@ -1,0 +1,7 @@
+name: Post
+description: 'description'
+type: module
+core: 8.x
+dependencies:
+  - node
+package: themeless core

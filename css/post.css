@@ -1,0 +1,45 @@
+/**
+ * @file
+ * CSS for the post node.
+ */
+
+article.node--type-article {
+  background: #ddd;
+  padding: 1.5em;
+  border: 1px solid #ddd;
+  font-family: 'Helvetica Neue','Helvetica-Neue',arial,sans-serif;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+article.node--type-article h1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: .5em;
+}
+article.node--type-article a {
+  text-decoration: none;
+  color: #2196F3;
+}
+article.node--type-article h1 a {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  color: #555;
+}
+article.node--type-article p {
+  padding: 0;
+  margin: 0;
+  font-size: 90%;
+  color: #333;
+}
+article.node--type-article h1 a:hover {
+  color: #000;
+}
+.article-views-block {
+}
+article.node--type-article footer {
+  margin-bottom: .5em;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+
